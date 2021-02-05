@@ -1,0 +1,136 @@
+body { padding-top: 80px; padding-bottom: 100px;  }
+
+.navbar {
+    background-color: #353f40!important;
+    border: none;
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.panel-default {
+    border-color: #353f40!important; 
+}
+
+.panel-default>.panel-heading {
+    border-color: #353f40!important; 
+    background-color: #353f40!important;
+    color: white;
+}
+
+.panel-title {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.navbar-brand img {
+    transition: all 0.4s ease;
+    height: 35px;
+    width: 35px;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    background-color: #353f40!important;
+    color: white!important;
+}
+
+.navbar-inverse .navbar-nav>li
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    transition: all 0.4s ease;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #353f40!important;
+}
+
+.table-center td {
+   text-align: center!important;
+}
+
+.table-center tr {
+   text-align: center!important;
+}
+
+.table-center th {
+   text-align: center!important;
+}
+
+.green-text {
+    color: #27ae60;
+}
+
+.red-text {
+    color: #e74c3c;
+}
+
+.tab-content {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.white-text {
+    color: white!important;
+}
+
+.thumbnail-blue {
+    background-color: #3498db;
+}
+
+.thumbnail-green {
+    background-color: #2ecc71;
+}
+
+.thumbnail-red {
+    background-color: #e74c3c;
+}
+
+.thumbnail-orange {
+    background-color: #e67e22;
+}
+
+.thumbnail-purple {
+    background-color: #9b59b6;
+}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #353f40!important;
+    color: white!important;
+}
+
+.nav-pills a {
+    color: #353f40!important;
+}
+
